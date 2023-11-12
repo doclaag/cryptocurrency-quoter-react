@@ -72,7 +72,7 @@ export const Form = ({ setCoins }) => {
         <>
             {error && <Error>Todos los campos son obligatorio</Error>}
             <form
-                onClick={handleSubmit}
+                onSubmit={handleSubmit}
             >
                 <SelectCoins />
                 <SelectCryptos />
